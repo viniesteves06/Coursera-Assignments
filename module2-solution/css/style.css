@@ -1,1 +1,157 @@
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 175%;
+}
 
+body {
+	background-color: #FFF5EE;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1 {
+	background-color: #708090;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: justify;
+	border: 1px solid;
+}
+
+#div2 {
+	background-color: #708090;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: justify;
+	border: 1px solid;
+}
+
+#div3 {
+	background-color: #708090;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: justify;
+	border: 1px solid;
+}
+
+#div1-1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 15%;
+	border: 1px solid;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #FA8072;
+	font-size: 125%
+}
+
+#div2-2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 15%;
+	border: 1px solid;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #DDA0DD;
+	font-size: 125%
+}
+
+#div3-3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 15%;
+	border: 1px solid;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #98FB98;
+	font-size: 125%
+}
+
+@media (min-width: 992px) {
+
+#div1 {
+	width: 30%;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#div2 {
+	width: 30%;
+	height: 200px;
+	margin-right: 20px;
+}
+
+#div3 {
+	width: 30%;
+	height: 200px;
+	margin-right: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#div1 {
+	width: 40%;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#div2 {
+	width: 40%;
+	height: 200px;
+	margin-right: 20px;
+}
+
+#div3 {
+	width: 82.5%;
+	height: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+}
+
+@media (max-width: 767px){
+
+#div1 {
+	width: 82.5%;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#div2 {
+	width: 82.5%;
+	height: 200px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#div3 {
+	width: 82.5%;
+	height: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+}
